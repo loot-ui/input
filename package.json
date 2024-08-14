@@ -1,0 +1,36 @@
+{
+    "name": "@lootui/input",
+    "version": "0.0.2",
+    "description": "Simple input styled with styled-components",
+    "keywords": [
+        "lootui",
+        "input",
+        "react",
+        "styled-components",
+        "ui"
+    ],
+    "repository": "git@github.com:loot-ui/input.git",
+    "author": "Nick Ivanov <makuizafailed@gmail.com>",
+    "publishConfig": {
+        "access": "public"
+    },
+    "exports": "./dist/index.js",
+    "scripts": {
+        "pub:release": "pnpm build && pnpm publish --access public",
+        "build": "tsup",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "files": [
+        "dist"
+    ],
+    "license": "MIT",
+    "devDependencies": {
+        "@types/react": "^18.3.3",
+        "lootui": "file:../cli",
+        "tsup": "^8.2.4"
+    },
+    "peerDependencies": {
+        "react": "^18.3.1",
+        "styled-components": "^6.1.12"
+    }
+}
