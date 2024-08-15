@@ -1,6 +1,6 @@
 {
     "name": "@lootui/input",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Simple input styled with styled-components",
     "keywords": [
         "lootui",
@@ -9,7 +9,7 @@
         "styled-components",
         "ui"
     ],
-    "repository": "git@github.com:loot-ui/input.git",
+    "repository": "git@github.com:lootui/input.git",
     "author": "Nick Ivanov <makuizafailed@gmail.com>",
     "publishConfig": {
         "access": "public"
