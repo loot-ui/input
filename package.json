@@ -1,6 +1,6 @@
 {
     "name": "@lootui/input",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Simple input styled with styled-components",
     "keywords": [
         "lootui",
@@ -26,7 +26,7 @@
     "license": "MIT",
     "devDependencies": {
         "@types/react": "^18.3.3",
-        "lootui": "file:../cli",
+        "lootui": "^0.0.1",
         "tsup": "^8.2.4"
     },
     "peerDependencies": {

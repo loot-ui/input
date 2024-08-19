@@ -19,8 +19,8 @@ importers:
         specifier: ^18.3.3
         version: 18.3.3
       lootui:
-        specifier: file:../cli
-        version: file:../cli(eslint@9.9.0)(typescript@5.5.4)
+        specifier: ^0.0.1
+        version: 0.0.1(eslint@9.9.0)(typescript@5.5.4)
       tsup:
         specifier: ^8.2.4
         version: 8.2.4(postcss@8.4.38)(typescript@5.5.4)
@@ -875,8 +875,8 @@ packages:
     resolution: {integrity: sha512-lyuxPGr/Wfhrlem2CL/UcnUc1zcqKAImBDzukY7Y5F/yQiNdko6+fRLevlw1HgMySw7f611UIY408EtxRSoK3Q==}
     hasBin: true
 
-  lootui@file:../cli:
-    resolution: {directory: ../cli, type: directory}
+  lootui@0.0.1:
+    resolution: {integrity: sha512-EuxEnEyB2oDMBXUZq2l5eOLQ+e7mNairStONJTy+wyKq2UtDXN1MK/yGPfLcKzaExcjDpexlAuZzuFoq6lOeRA==}
     hasBin: true
 
   lru-cache@10.4.3:
@@ -2066,7 +2066,7 @@ snapshots:
     dependencies:
       js-tokens: 4.0.0
 
-  lootui@file:../cli(eslint@9.9.0)(typescript@5.5.4):
+  lootui@0.0.1(eslint@9.9.0)(typescript@5.5.4):
     dependencies:
       '@clack/prompts': 0.7.0
       '@topcli/prompts': 1.10.1
